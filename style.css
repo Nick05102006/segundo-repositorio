@@ -5,12 +5,12 @@ body {
 
 header {
     background-color: rgba(245, 9, 206, 0.164);
-    color: rgba(250, 6, 217, 0.363);
+    color: rgba(252, 92, 225, 0.363);
 }
 
 cabecalho { 
-background-color: aqua;
-color: black;   
+background-color: rgb(255, 196, 250);
+color: rgb(255, 255, 255);   
 display: flex;
 justify-content: space-around;
 padding: 24px 0;
