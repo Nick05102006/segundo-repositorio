@@ -4,13 +4,16 @@
 
 :root {
 
-    --cor-principal: #
+    --cor-principal:
     --cor-secundaria:  
     --cor-escrita:
     --cor-defundo:
 
 }
-
+{
+    margin; 0
+    padding; 0
+}
 
 
 body { 
