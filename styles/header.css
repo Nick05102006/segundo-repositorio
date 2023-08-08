@@ -1,0 +1,26 @@
+.cabecalho{
+
+ display: flex;
+justify-content: space-between;
+background-color: aliceblue;
+position: relative;
+}
+
+.cabecalho_menu {
+
+display: inline-block;
+background-image: url(/img/cardapio.png);
+background-repeat: no-repeat;
+background-position: center;
+width: 24px;
+height: 24px;
+}
+
+.container{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
