@@ -1,26 +1,90 @@
 .cabecalho{
-
+ background-color: var(--cor-principal);
  display: flex;
-justify-content: space-between;
-background-color: aliceblue;
-position: relative;
+ justify-content: space-between;
+ align-items: center;
+ position: relative;
 }
 
 .cabecalho_menu {
-
-display: inline-block;
-background-image: url(/img/cardapio.png);
-background-repeat: no-repeat;
-background-position: center;
-width: 24px;
-height: 24px;
+  width: 24px;
+  height: 24px;
+  background-image: url(/img/cardapio.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
 }
 
 .container{
- 
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
 }
+
+.cabecalho-imagem {
+    padding: 1em;
+}
+
+.container_imagem{
+    padding: 1em;
+    width: 40px;
+}
+
+.cabecalho-lista{
+    display:none;
+    background-color: lightpink;
+    position: absolute;
+    top: 100%;
+    width: 50vw;
+}
+
+.container_botao:checked~.cabecalho-lista{
+    display: none;
+}
+    
+.container_botao{
+    display: none;
+}
+
+.cabecalho-lita-titulo{
+    padding: 1em;
+    color: hotpink;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cabecalho-lista-item{
+    padding: 1em;
+    color: ghostwhite;
+}
+
+.conteiner-titulo{
+    display: none;
+}
+
+.menu_lista-item{
+    background: var(--cor-principal);
+    color: var(--rosa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.opcoes{
+    display: none;
+}
+
+.container_texto{
+    display: none;
+}
+
+@media screen and {
+    
+}
+
+
+
+
+
+
