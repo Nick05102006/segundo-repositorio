@@ -32,7 +32,7 @@
 
 .cabecalho-lista{
     display:none;
-    background-color: lightpink;
+    background-color: rgb(0, 0, 0);
     position: absolute;
     top: 100%;
     width: 50vw;
