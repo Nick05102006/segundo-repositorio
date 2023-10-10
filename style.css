@@ -2,11 +2,17 @@
 
 
 
-;:root {
---cor-de-fundo
-    
-
+;:root{
+--cor-principal: rosa;
+--cor-secundaria:
+--cor-terciaria:
+--cor-quartaria:
+--cor-quintaria:
+--cor-de-escrita: white;
+--fonte-principal:
+--fonte-secundaria:
 }
+
 {
     margin; 0
     padding; 0
@@ -18,13 +24,57 @@ body {
     font-family:"Crismson Pro", serif ;
 }
 
+.secao1 {
+    background-image: linear-gradient(#ffffff,#ffffff);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+}
+
+.secao1-titulo {
+    padding: 30px 0;
+}
+
+.secao1-imagem {
+    width: 25%;
+}
+
+.secao1-div-conteudo{
+    width: 35%;
+}
+
+.nome-img{
+    width: 120px;
+}
+
+.secao1-img{
+    width: 30px;
+}
+
+.div-apresentacao{ 
+    text-align: center;
+    padding: 40px 0;
+}
+
+.icon-redes{
+    width: 24px;
+    padding: 4px 8px;
+
+}
+.minha-foto {
+    width: 10%;
+}
+
 header {
     background-color: rgba(245, 9, 206, 0.164);
     color: rgba(252, 92, 225, 0.363);
 }
 
 cabecalho { 
-background-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
 color: rgb(255, 255, 255);   
 display: flex;
 justify-content: space-around;
@@ -42,41 +92,5 @@ padding: 24px 0;
     font-size: 24px;
 }
 
-.secao1 {
-        background-image: linear-gradient(#000000,#ffffff);
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 24px 0;
-    }
 
-    .secao1-titulo {
-        padding: 30px 0;
-    }
-
-    .secao1-imagem {
-        width: 20%;
-    }
-    
-    .secao1-div-conteudo{
-        width: 40%;
-    }
-
-    .secao1-img{
-        width: 30px;
-    }
-
-    .div-apresentacao{ 
-        text-align: center;
-        padding: 40px 0;
-    }
-
-    .icon-redes{
-        width: 24px;
-        padding: 4px 8px;
-
-    }
-    .minha-foto {
-        width: 10%;
-    }
+  
