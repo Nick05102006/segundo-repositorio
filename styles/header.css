@@ -103,12 +103,12 @@
 .opcoes_item{
     padding: 0 2 em;
     text-transform: uppercase;
-    color:floralwhite
+    color:rgb(255, 190, 244);
 }
 
 .opcoes_link{
     text-decoration: none;
-    color: ghostwhite;
+    color: rgb(255, 190, 244);
 }
 
 .opcoes_botao:checked.cabecalho-lista{
