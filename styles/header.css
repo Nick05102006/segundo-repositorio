@@ -1,5 +1,5 @@
 .cabecalho{
- background-color: var(--cor-principal);
+ background-color:black
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -49,7 +49,7 @@
 
 .cabecalho-lita-titulo{
     padding: 1em;
-    color: hotpink;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     text-transform: uppercase;
 }
