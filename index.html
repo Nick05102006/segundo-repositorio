@@ -1,64 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>FIQUE SEMPRE LINDA!</title>
+        <title>FIQUE SEMPRE LINDA!</title>
 
-    <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="reset.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href=""
+        <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="style.css">
+    </head>
 
-</head>
+    <body>
+        <header class="cabecalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container-botao">
+                <label for="menu">  
+                    <span class="cabecalho_menu conteneir_imagem"></span>
+                </label>
 
-<body>
-    <header class="cabecalho">
-        <div class="container">
-            <input type="checkbox" id="menu" class="container-botao">
-            <label for="menu">  
-                <span class="cabecalho_menu conteneir_imagem"></span>
-            </label>
+                <ul class="cabecalho-lista">
+                    <li class="cabecacalho-lista-titulo">Categorias</li>
+                    <li class="cabecalho-lista-titulo"><a class="menu_lista-item" href="#">Serviços</a></li>
+                    <li class="cabecalho-lista-item"><a class="menu_lista-item" href="#">Projetos</a></li>
+                    <li class="cabecalho-lista-item"><a class="menu_lista-item" href="#">Contato</a></li>
+                <ul>
 
-            <ul class="cabecalho-lista">
-                <li class="cabecalho-lista-titulo"><a class="menu_lista-item" href="#">Serviços</a></li>
-                <li class="cabecalho-lista-item"><a class="menu_lista-item" href="#">Projetos</a></li>
-                <li class="cabecalho-lista-item"><a class="menu_lista-item" href="#">Contato</a></li>
-            <ul>
+                <img class="cabecalho-imagem" src="./img/logo.png" alt="Imagem logo">
+                <h1>TIANNA UNHAS POSTIÇAS</h1> 
+            </div>
 
-            <img class="cabecalho-imagem" src="./img/logo.png" alt="Imagem logo">
-            <h1>TIANNA UNHAS POSTIÇAS</h1> 
-        </div>
- 
-        <ul class="opcoes">
-           <input type="checkbox" id="opcoes-menu" class="opcoes_botao">
-            <label for="opcoes-menu">       
-              <li class="opcoes-item">Categorias</li>
-            </label>
+            <ul class="opcoes">
+                <input type="checkbox" id="opcoes-menu" class="opcoes_botao">
+                <label for="opcoes-menu">       
+                    <li class="opcoes-item">Categorias</li>
+                </label>
 
-            <ul class="cabecalho-lista">
-                <li class="cabecalho-lista-item">
-                <a href="#" class="menu-lista-item">Opção 1</a>
-                </li>
-                <li class="cabecalho-lista-item">
-                    <a href="#" class="menu_lista-item">Opção 2</a>
-                </li>
-                <li class="cabecalho-lista-item">    
-                    <a href="#" class="menu_lista-item">Opção 3</a>
-                </li>    
+                <ul class="cabecalho-lista">
+                   <li class="cabecalho-lista-item">
+                        <a href="#" class="menu-lista-item">Opção 1</a>
+                    </li>
+                     <li class="cabecalho-lista-item">
+                        <a href="#" class="menu_lista-item">Opção 2</a>
+                    </li>
+                    <li class="cabecalho-lista-item">    
+                        <a href="#" class="menu_lista-item">Opção 3</a>
+                    </li>    
+                </ul>
+
+                <li class="opcoes-item"><a href="opcoes_link">Serviços</a></li>
+                <li class="opcoes-item"><a href="opcoes_link">Projetos</a></li>
             </ul>
-
-            <li class="opcoes-item"><a href="opcoes_link">Serviços</a></li>
-            <li class="opcoes-item"><a href="opcoes_link">Projetos</a></li>
-        </ul>
-
+            
         <div class="container">
             <a href="#"><img class="cabecalho-imagem cabecalho_favorito" src="./img/coracao.png" alt="Meus favoritos"
             <a href="#" class="container_link">
@@ -77,6 +78,27 @@
 
     </header>
 
+
+
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nossa "página" o que precisa para seu "desenvolvimento"!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Faça sua busca em nossos serviços">
+    </section>
+
+    <section class="secao1">
+
+
+        <div class="secao1-div-conteudo">
+            <h2 class="secao1-titulo"> Quem somos: </h2>
+            <p class="secao1-p1">Somos uma empresada especializada ... blabla bla... </p>
+            <p class="secao1-p2"> Oferecemos... </p>
+        </div>
+
+        <img class="secao1-imagem" src="./img/quadro.jpg">
+
+    </section>
+
     <section class="secao1">
         <div class="secao1-div-conteudo"></div>
             <h2 class="secao1-titulo">Quem somos?</h2>
@@ -88,6 +110,7 @@
     </section>
 
     <section class="apresentacao">
+
         <h2 class=" Nicoly Rossetti">
             <img class="minha-foto" src="./img/eu.jpeg" alt="foto pessoal">
             <img class="icon-redes " src="./img/instagram.png" alt="icone instagram">
@@ -96,6 +119,70 @@
         </h2>
 
     </section>
-</body>
+    </body>
 
-</html>
+    </html>
+
+    <section class="carrossel">
+                    
+        <h2 class="carrossel__titulo">Nossos Produtos&Serviços</h2>
+        
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="" alt="">
+                    </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+
+                <div class="card_descricao">
+
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você se interesse por...</h3>
+                    
+                        <h2 class="descricao__titulo-ptoduto">Unhas acrílicas</h2>
+
+                        <p> </p>
+
+                    <img src="/img/Promoção da semana produto ecommerce story do instagram.png" 
+                    alt="Nosso melhor produto">
+
+                </div>
+
+                <div class="card_botoes">
+                    <ul>
+                        <li class="botoes__item"> <img src="/img/coracao.png" alt="Favoritar produto"></li>
+                        <li class="botoes__item"> <img src="/img/shoppingbag_84031.svg" alt="Adicionar produto ao carrinho"></li>
+                    </ul>
+                    <a href="Saiba Mais"></a>
+
+                </div>
+
+
+
+
+
+
+
