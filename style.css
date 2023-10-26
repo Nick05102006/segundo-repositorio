@@ -3,12 +3,15 @@
 
 
 ;:root{
---cor-principal: rosa;
---cor-secundaria:
+--cor-principal:#FF4DA7;
+--cor-secundaria:#FFE6FF;
+--cor-1:#FF009F;
+--cor-2:#F247D6;
+
+
 --cor-terciaria:
 --cor-quartaria:
 --cor-quintaria:
---cor-de-escrita: white;
 --fonte-principal:
 --fonte-secundaria:
 }
