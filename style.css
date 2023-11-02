@@ -41,7 +41,7 @@ body {
 }
 
 .secao1-imagem {
-    width: 25%;
+    width: 40%;
 }
 
 .secao1-div-conteudo{
@@ -49,7 +49,7 @@ body {
 }
 
 .nome-img{
-    width: 120px;
+    width: 10px;
 }
 
 .secao1-img{
@@ -62,12 +62,12 @@ body {
 }
 
 .icon-redes{
-    width: 24px;
+    width: 10px;
     padding: 4px 8px;
 
 }
 .minha-foto {
-    width: 10%;
+    width: 10px;
 }
 
 header {
@@ -76,7 +76,7 @@ header {
 }
 
 cabecalho { 
-background-color: rgb(255, 255, 255);
+background-color: rgb(255, 167, 236);
 color: rgb(255, 255, 255);   
 display: flex;
 justify-content: space-around;
