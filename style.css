@@ -1,6 +1,5 @@
-@import url(/styles/hearder.css)
-
-
+@import url(/styles/hearder.css);
+@import url(styles/carrossel.css);
 
 ;:root{
 --cor-principal:#FF4DA7;
@@ -11,13 +10,8 @@
 --cor-4:#FFE700;
 --cor-terciaria:#F29AFF;
 --cor-quartaria:#000000;
---fonte-principal:
+--fonte-principal:"Crismson Pro"
 --fonte-secundaria:
-}
-
-{
-    margin; 0
-    padding; 0
 }
 
 
@@ -26,8 +20,12 @@ body {
     font-family:"Crismson Pro", serif ;
 }
 
+h1 {
+    color: var(--branco);
+}
+
 .secao1 {
-    background-image: linear-gradient(#ffffff,#ffffff);
+    background-image: linear-gradientf(#FFE6FF,#ffffff);
     color:rgba(238, 14, 137, 0.253)
     display: flex;
     justify-content: center;
@@ -37,7 +35,7 @@ body {
 }
 
 .secao1-titulo {
-    padding: 30px 0;
+    padding: 24px 0;
 }
 
 .secao1-imagem {
@@ -49,16 +47,24 @@ body {
 }
 
 .nome-img{
-    width: 10px;
-}
-
-.secao1-img{
-    width: 30px;
+    width: 200px;
 }
 
 .div-apresentacao{ 
     text-align: center;
-    padding: 40px 0;
+    padding: 16px 0;
+}
+
+.apresentacao-titulo{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
 }
 
 .icon-redes{
@@ -66,33 +72,9 @@ body {
     padding: 4px 8px;
 
 }
-.minha-foto {
-    width: 10px;
-}
 
-header {
-    background-color: rgba(245, 9, 206, 0.164);
-    color: rgba(252, 92, 225, 0.363);
-}
-
-cabecalho { 
-background-color: rgb(255, 167, 236);
-color: rgb(255, 255, 255);   
-display: flex;
-justify-content: space-around;
-padding: 24px 0;
-}
-
-.cabecalho-imagem {
+.section3-img-1{
     width: 40%;
 }
-
-.cabecalho-lista-item {
-    display: inline-block;
-    margin: 0% 16px;
-    padding: 24px 0;
-    font-size: 24px;
-}
-
 
   
