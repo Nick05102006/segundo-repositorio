@@ -1,5 +1,9 @@
-@import url(/styles/hearder.css);
-@import url(styles/carrossel.css);
+@import url(/styles/header.css);
+@import url(/styles/banner.css);
+@import url(/styles/carrossel.css);
+@import url(/styles/topicos.css);
+@import url(/styles/contato.css);
+@import url(/styles/rodape.css);
 
 ;:root{
 --cor-principal:#FF4DA7;
@@ -11,7 +15,6 @@
 --cor-terciaria:#F29AFF;
 --cor-quartaria:#000000;
 --fonte-principal:"Crismson Pro"
---fonte-secundaria:
 }
 
 
