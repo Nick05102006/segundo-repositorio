@@ -29,7 +29,7 @@ h1 {
 
 .secao1 {
     background-image: linear-gradientf(#FFE6FF,#ffffff);
-    color:rgba(238, 14, 137, 0.253)
+    color:rgba(238, 14, 137, 0.253);
     display: flex;
     justify-content: center;
     align-items: center;
