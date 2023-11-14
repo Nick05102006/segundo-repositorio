@@ -5,7 +5,7 @@
 @import url(/styles/contato.css);
 @import url(/styles/rodape.css);
 
-;:root{
+:root{
 --cor-principal:#FF4DA7;
 --cor-secundaria:#FFE6FF;
 --cor-1:#FF009F;
@@ -14,17 +14,16 @@
 --cor-4:#FFE700;
 --cor-terciaria:#F29AFF;
 --cor-quartaria:#000000;
---fonte-principal:"Crismson Pro"
+--fonte-principal:"Crismson Pro";
 }
-
 
 body { 
     background-color:rgba(238, 14, 137, 0.253);
-    font-family:"Crismson Pro", serif ;
+    font-family: var(--fonte-principal);
 }
 
 h1 {
-    color: var(--branco);
+    color: var(--cor-3)
 }
 
 .secao1 {
@@ -34,7 +33,6 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 24px 0;
-}
 }
 
 .secao1-titulo {
@@ -71,7 +69,7 @@ h1 {
 }
 
 .icon-redes{
-    width: 10px;
+    width: 24px;
     padding: 4px 8px;
 
 }
