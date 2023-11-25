@@ -19,7 +19,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: var(--cor-letra);
 }
 
 .cabecalho-imagem {
@@ -86,6 +85,7 @@
         font-family: var(--fonte-principal);
         font-weight: 400px;
         font-size: 30px;
+        color: var(--cor-letra);
     }
 
     .cabecalho__menu {
