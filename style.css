@@ -15,6 +15,7 @@
 --cor-terciaria:#FF90D4;
 --cor-quartaria:#000000;
 --cor-letra: #682BCC;
+--cor-degrade: linear-gradient(#FFE6FF,#FF90D4);
 --fonte-principal:"Playfair";
 }
 
@@ -28,7 +29,7 @@ h1 {
 }
 
 .secao1 {
-    background-image: linear-gradientf(#FFE6FF,#ffffff);
+    background-image: linear-gradient(#FFE6FF,#ffffff);
     color:rgba(238, 14, 137, 0.253);
     display: flex;
     justify-content: center;
