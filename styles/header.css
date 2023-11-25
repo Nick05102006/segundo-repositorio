@@ -32,7 +32,8 @@
 
 .cabecalho-lista {
     display: none;
-    background-color: rgba(238, 14, 137, 0.253) position: absolute;
+    background-color: rgba(238, 14, 137, 0.253);
+    position: absolute;
     top: 100%;
     width: 50vw;
 }
