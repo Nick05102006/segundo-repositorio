@@ -46,20 +46,20 @@
 }
 
 .descricao__titulo {
-    color: var(--cor-letra);
+    color: var(--cor-quartaria);
     font-weight: 700;
 }
 
 .descricao__titulo-produto {
-    color: var(--cor-3);
-    font-size: 20px;
+    color: var(--cor-letra);
+    font-size: 30px;
     font-weight: 700;
     margin: 0.5em;
 }
 
 .descricao__texto {
     font-family:var(--fonte-principal);
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .descricao__imagem {
