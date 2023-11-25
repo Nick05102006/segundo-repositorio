@@ -19,6 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--cor-letra);
 }
 
 .cabecalho-imagem {
@@ -27,7 +28,7 @@
 
 .container__imagem {
     padding: 10px;
-    width: 150px;
+    width: 120px;
 }
 
 .cabecalho-lista {
