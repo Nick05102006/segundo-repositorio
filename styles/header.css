@@ -139,5 +139,6 @@
 
     .container__texto {
         display: block;
+        color:var(--cor-terciaria);
     }
 }
