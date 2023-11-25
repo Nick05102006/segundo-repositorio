@@ -58,7 +58,7 @@
 }
 
 .descricao__texto {
-    font-family:var(--fonte-secundaria);
+    font-family:var(--fonte-principal);
     font-size: 13px;
 }
 
