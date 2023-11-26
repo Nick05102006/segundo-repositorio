@@ -39,6 +39,7 @@ h1 {
 
 .secao1-titulo {
     padding: 24px 0;
+    font-size: 30px;
 }
 
 .secao1-imagem {
@@ -48,6 +49,10 @@ h1 {
 .secao1-div-conteudo{
     width: 35%;
     color: var(--cor-letra);
+}
+
+.secao1-p1 {
+    font-size: 18px;
 }
 
 .nome-img{
