@@ -25,11 +25,11 @@ body {
 }
 
 h1 {
-    color: var(--cor-3)
+    color: var(--cor-4)
 }
 
 .secao1 {
-    background-image: linear-gradient(#FFE6FF,#ffffff);
+    background-image: var(--cor-terciaria);
     color:var(--cor-letra);
     display: flex;
     justify-content: center;
@@ -47,6 +47,7 @@ h1 {
 
 .secao1-div-conteudo{
     width: 35%;
+    color: var(--cor-letra);
 }
 
 .nome-img{
