@@ -30,7 +30,7 @@ h1 {
 
 .secao1 {
     background-image: linear-gradient(#FFE6FF,#ffffff);
-    color:rgba(238, 14, 137, 0.253);
+    color:var(--cor-letra);
     display: flex;
     justify-content: center;
     align-items: center;
